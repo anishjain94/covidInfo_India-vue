@@ -1,13 +1,48 @@
-# SI_Project
-This project was for the Summer Internship (2 months), that we have to do after second semester. I was working in a team of 4. Other 3 contributors are @vishalranna , @kapiltailor8266 ,and @gerry1818. 
-This was for learning vue.js and node.js and also single page application.
-The whole projects works like a single page application divided into components that can load dynamically.
-The project is about showing covid19 figures in india through visualisation, so it is was to track the growth/withering of covid19 cases in india.
-We have used external libraris for charts and tables(vue-chart.js and vue-table-dynamic).
+# COVID Tracker Ireland
 
-Requirements- Node.js to be installed
-              
+## Getting Started
 
-Note: The localhost server is running on 3000
-      
-Feel free to share your thoughts. All the suggesstions are welcomed.
+Following these instructions will allow you to run and build the project on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Follow the official guide "[Setting up the development environment](http://npm.org/)" to set up your local machine to develop and run the application.
+
+
+Install `npm` globally:
+
+```bash
+npm install node
+```
+
+### Installing
+
+Clone this repository.
+
+Install the npm dependencies:
+
+```bash
+npm install
+```
+
+```bash
+cd client
+npm install
+```
+
+
+## Running the applications locally
+
+To start the server, in the root directory:
+
+```bash
+npm start
+```
+
+To start frontend, run:
+
+```bash
+cd client
+npm run dev
+```
+

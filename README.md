@@ -46,3 +46,5 @@ cd client
 npm run dev
 ```
 
+![Project Images](https://github.com/anishjain94/Covid-Tracker/blob/master/demo%20images/state.png?raw=true)
+![Project Images](https://github.com/anishjain94/Covid-Tracker/blob/master/demo%20images/homepage.png?raw=true)

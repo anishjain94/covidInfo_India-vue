@@ -9,16 +9,18 @@ const cors = require("cors");
 
 //Middleware
 
+
+
 var app = express();
 app.use(bodyParser.json());
 app.use(cors());
-
-var mongourl = 'mongodb+srv://admin:Jainanish@covidtracker.adcjs.mongodb.net/<dbname>?retryWrites=true&w=majority'
+var mongourl = 'mongodb+srv://admin:admin@CovidTracker.adcjs.mongodb.net/CovidTracker?retryWrites=true&w=majority'
 
 mongoose.connect(mongourl, { useNewUrlParser: true, useUnifiedTopology: true });
 
 mongoose.connection.on('connected', function () {
     console.log("Mongooose connected");
+
 })
 
 var countrySchema = new mongoose.Schema({
@@ -224,13 +226,13 @@ function findDateDB(today) {
 }
 
 app.listen(3000, function () {
-
+    
     console.log('Node.js listening ...');
 });
 
 
-const states_total = require('./routes/api/states_total');
-app.use('/api/states', states_total);
+const states_total=require('./routes/api/states_total');
+app.use('/api/states',states_total);
 
 
 /*const express = require("express");

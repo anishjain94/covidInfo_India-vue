@@ -1,4 +1,4 @@
-# COVID Tracker Ireland
+# COVID Tracker India
 
 ## Getting Started
 
@@ -46,6 +46,9 @@ cd client
 npm run dev
 ```
 
+## India Map
 ![Project Images](https://github.com/anishjain94/Covid-Tracker/blob/master/demo%20images/homepage.png?raw=true)
+## State Map
 ![Project Images](https://github.com/anishjain94/Covid-Tracker/blob/master/demo%20images/state.png?raw=true)
+## Covid Awarness Page
 ![Project Images](https://github.com/anishjain94/Covid-Tracker/blob/master/demo%20images/About%20Corona.png?raw=true)

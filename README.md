@@ -11,10 +11,6 @@ Follow the official guide "[Setting up the development environment](http://npm.o
 
 Install `npm` globally:
 
-```bash
-npm install node
-```
-
 ### Installing
 
 Clone this repository.
@@ -33,7 +29,7 @@ npm install
 
 ## Running the applications locally
 
-To start the server, in the root directory:
+To start the Backend server, go to the root directory:
 
 ```bash
 npm start
